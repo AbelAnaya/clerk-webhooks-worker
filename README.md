@@ -41,7 +41,7 @@ Configure Clerk to send user event webhooks to your Cloudflare Worker endpoint.
 - Add a new webhook URL pointing to your Cloudflare Worker deployment.
 - Example: https://<your-worker>.workers.dev/.
 
-5. Deploy the Worker
+5. Worker deployment
 
 ```sh
 wrangler publish
