@@ -7,7 +7,7 @@ This Cloudflare Worker listens to Clerk user event webhooks (such as user.create
 - Handles Clerk webhook events (user.created, user.updated, user.deleted).
 - Syncs Clerk users with Supabase by performing inserts, updates, and deletions.
 - Built using Cloudflare Workers for serverless execution.
-- Uses Supabase's REST API with a service role key for full database access.
+- Uses Supabase's REST API with a service role key for full database access
 
 ## Installation
 
